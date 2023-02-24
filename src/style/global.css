@@ -1,0 +1,59 @@
+*{
+    color: #fff;
+}
+body{
+    background-color: #111111;
+    background-position: 50%;
+    background-size: cover;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    height: 100%;
+    line-height: 1.6;
+    position: relative;
+    width: 100%;
+}
+:root{
+    --bg-yellow:#ffb400;
+    --light:#fff;
+    --dark:#000;
+}
+.text-light{
+    color: #fff;
+}
+.text-gray{
+    color: #fff;
+}
+.text-dark{
+    color: #000;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-theme{
+    color: var(--bg-yellow);
+}
+/* font size */
+.f-16{
+    font-size: 16px;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-22{
+    font-size: 22px;
+}
+.f-24{
+    font-size: 24px;
+}
+.f-26{
+    font-size: 26px;
+}
+
+
