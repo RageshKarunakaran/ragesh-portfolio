@@ -340,12 +340,16 @@ border-width: 0px !important; ;
     height: 220px;
 }
 .lottie{
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
 }
 @media screen and (max-width: 997px) {
-    
+    .lottie{
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
     .profile-img{
         object-fit: cover;
         object-position: top;
@@ -422,5 +426,10 @@ border-width: 0px !important; ;
     .chart svg {
         width: 130px;
         height: 130px;
+    }
+    .lottie{
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
     }
 }
