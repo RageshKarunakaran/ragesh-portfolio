@@ -55,5 +55,9 @@ body{
 .f-26{
     font-size: 26px;
 }
-
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: transparent;
+    border-color: #feb400;
+}
 
