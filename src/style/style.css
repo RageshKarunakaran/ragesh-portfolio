@@ -29,7 +29,7 @@ a{
     top: 0;
     transition: all .3s;
     z-index: -1;
-    background: #feb400;
+    background: var(--bg-yellow);
     height: 4rem;
     font-size: 18px;
     display: flex;
@@ -59,7 +59,7 @@ a{
     text-align: center;
 }
 .header .nav-item .nav-link:hover{
-    background: #feb400;
+    background: var(--bg-yellow);
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     background: var(--bg-yellow);
@@ -71,7 +71,7 @@ a{
     top: -50%;
     transform: rotate(-15deg);
     width: 100%;
-    background: #feb400;
+    background: var(--bg-yellow);
 }
 .bg {
     background: url('../../public/new.jpg');
@@ -93,7 +93,10 @@ a{
 
     font-size: 3.5rem;
     font-weight: bold;
-    color: var(--bg-yellow);
+}
+.home-details-container h1 span{
+
+    color: var(--bg-yellow)!important;
 }
 .home-details-container p {
     font-size: 1.3rem;
@@ -149,7 +152,7 @@ span.button-txt{
 }
 /* heading */
 .txt-clr{
-    color: var(--bg-yellow);
+    color: var(--bg-yellow)!important;
 }
 .heading h2 {
     font-size: 4rem;

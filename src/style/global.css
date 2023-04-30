@@ -2,7 +2,7 @@
     color: #fff;
 }
 body{
-    background-color: #111111;
+    /* background-color: #111111; */
     background-position: 50%;
     background-size: cover;
     color: #fff;
@@ -12,6 +12,32 @@ body{
     line-height: 1.6;
     position: relative;
     width: 100%;
+}
+.light{
+    background: #fff;
+    color: #000;
+}
+.dark{
+    background:  #111111;
+    color: #fff;
+}
+.light p{
+    color: #000!important;
+}
+.light h1,.light h2,.light h3,.light h4,.light h5,.light h6{
+    color: #000!important;
+}
+.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{
+    color: #fff!important;
+}
+.light .about-list li span{
+    color: #000;
+}
+.light span.button-txt{
+    color: #000;
+}
+.light .chart text[fill]{
+    fill: #000;
 }
 :root{
     --bg-yellow:#ffb400;

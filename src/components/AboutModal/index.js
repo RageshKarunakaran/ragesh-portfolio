@@ -3,7 +3,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import CountUp, { useCountUp } from "react-countup";
 import CircularProgress from "../../CircularProgress";
 import styles from "../AboutModal/style.css";
+import Lottie from "react-lottie";
+import download from "../../lotties/download.json";
 export function MyVerticallyCenteredModal(props) {
+  const downloadImage = {
+    loop: true,
+    autoplay: true,
+    animationData: download,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <Modal
       {...props}
@@ -108,12 +118,18 @@ export function MyVerticallyCenteredModal(props) {
                     </li>
                   </ul>
                   <div className="portfolio_main-btn text-left mb-3">
-                    <Button>
-                      <span class="button-txt">Download CV</span>
-                      <span class="button-icon">
-                        <img src="./import.svg" width="30" />
-                      </span>
-                    </Button>
+                    <a href="./updateresume.pdf" target="_blank">
+                      <Button>
+                        <span class="button-txt">Download CV</span>
+                        <span class="button-icon">
+                          <Lottie
+                            options={downloadImage}
+                            height={40}
+                            width={40}
+                          />
+                        </span>
+                      </Button>
+                    </a>
                   </div>
                 </Col>
               </Row>
@@ -122,7 +138,7 @@ export function MyVerticallyCenteredModal(props) {
               <Row>
                 <Col xl={6} lg={6} md={6} sm={6} xs={6}>
                   <div className="counter_box text-left px-md-5 py-md-4 px-2 py-2 mb-4">
-                    <CountUp delay={2} end={5} />
+                    <CountUp delay={2} end={4} />
                     <span className="text-theme">+</span>
                     <h5 className="text-white text-uppercase position-relative ps-5">
                       Years of
