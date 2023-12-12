@@ -174,7 +174,7 @@ function App() {
                                         I'M RAGESH.
                                         <br />
                                         <span className="text-clr">
-                                          UI / UX Developer
+                                          Front-end Developer
                                         </span>
                                       </h1>
                                       <p className="text-white">
