@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/Blog";
 import { Button } from "react-bootstrap";
+import NoPage from "./components/NoPage";
 
 function App() {
   const [cls, setCls] = React.useState("dark");
@@ -30,6 +31,7 @@ function App() {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
