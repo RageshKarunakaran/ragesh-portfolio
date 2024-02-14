@@ -1,6 +1,9 @@
 a{
     text-decoration: none!important;
 }
+.btn-close{
+    filter: brightness(0) invert(1);
+}
 .header{
     align-items: center;
     display: flex;
@@ -14,6 +17,11 @@ a{
     -webkit-transition: opacity .3s;
     z-index: 3;
     z-index: 2;
+}
+.blog {
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .header .menu h2 {
     border-radius: 30px;
@@ -38,27 +46,29 @@ a{
 .header .flex-dir-column{
     flex-direction: column;
 }
-.header .nav-item .nav-link {
+.header .nav-item-list .nav-link {
     background:#2b2a2a;
     margin: 0.8rem 0rem;
     height: 4rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 4rem;
     position: relative;
 }
-.header .nav-item .nav-link img {
+.header .nav-item-list .nav-link img {
     width: 2rem;
     height: auto;
 }
-.header .nav-item .nav-link:hover .menu h2 {
+.header .nav-item-list .nav-link:hover .menu h2 {
     border-radius: 30px 0 0 30px;
     margin: 0;
     opacity: 1;
     right: 35px;
     text-align: center;
 }
-.header .nav-item .nav-link:hover{
+.header .nav-item-list .nav-link:hover{
     background: var(--bg-yellow);
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
@@ -158,6 +168,7 @@ span.button-txt{
     font-size: 4rem;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
 }
 .heading .title-bg {
     color: #ffffff12;
@@ -171,6 +182,7 @@ span.button-txt{
     transform: translateY(-50%);
     letter-spacing: 10px;
     line-height: .7;
+    text-align: center;
 }
 .about-list li span {
     color: #fff;
@@ -257,7 +269,7 @@ span.titile {
 border: none!important;
 border-width: 0px !important; ;
 }
-.portfolio .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+.portfolio .nav-tabs .nav-item-list.show .nav-link, .nav-tabs .nav-link.active{
     color: var(--bg-yellow);
     background: none;
     border: none;
@@ -353,6 +365,9 @@ border-width: 0px !important; ;
         height: 500px;
         margin: 0 auto;
     }
+    .home, .mb-down{
+        margin-bottom: 4rem;
+    }
     .profile-img{
         object-fit: cover;
         object-position: top;
@@ -368,14 +383,14 @@ border-width: 0px !important; ;
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        bottom: 0;
+        bottom: -16px;
         right: 0;
         position: fixed;
         background: #1f1e1e;
         flex-direction: row!important;
         
     }
-    .header .nav-item .nav-link:hover .menu h2{
+    .header .nav-item-list .nav-link:hover .menu h2{
         display: none;
     }
     .heading h2{
@@ -394,12 +409,12 @@ border-width: 0px !important; ;
     .portfolio_main-btn button{
         font-size: 0.9rem;
     }
-    .header .nav-item .nav-link{
+    .header .nav-item-list .nav-link{
         padding: 0.75rem;
         width: 3rem;
         height: 3rem;
     }
-    .header .nav-item .nav-link img{
+    .header .nav-item-list .nav-link img{
         width: 1.5rem;
     }
     .chart svg {
