@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
     Col,
     Container,
@@ -7,6 +7,9 @@ import {
     Tab,
 } from "react-bootstrap";
 function Portfolio() {
+  useEffect(()=>{
+    window.scrollBy(0, -10000)
+    },[])
     return (
         <>
   

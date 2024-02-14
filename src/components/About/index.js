@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {
     Col,
     Container,
@@ -18,6 +18,9 @@ const downloadImage = {
     },
 };
 function About() {
+    useEffect(()=>{
+        window.scrollBy(0, -10000)
+        },[])
     return (
         <div className='about mb-down'>
             <Container>
