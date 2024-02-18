@@ -39,7 +39,7 @@ function Home() {
                                     Front-end Developer
                                 </span>
                             </h1>
-                            <p className="text-white w-75">
+                            <p className="text-white">
                                 I'm a web designer & front‑end developer
                                 focused on crafting clean &
                                 user‑friendly experiences,
