@@ -4,3 +4,11 @@
 .modal-header{
     border-bottom: none;
 }
+.w-md-90{
+    width: 90%;
+}
+@media (max-width: 1200px) {
+    .w-md-90{
+        width: 100%;
+    }
+}

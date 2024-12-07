@@ -5,7 +5,7 @@ import {
     Row,
     Button,
 } from "react-bootstrap";
-import CountUp, { useCountUp } from "react-countup";
+import CountUp from "react-countup";
 import download from "../../lotties/download";
 import Lottie from "react-lottie";
 import CircularProgress from '../../CircularProgress';
@@ -29,7 +29,7 @@ function About() {
                         <div className="heading position-relative pt-5 pb-5">
                             <h2 className="text-light">
                                 About
-                                <span className="txt-clr">Me</span>
+                                <span className="txt-clr"> Me</span>
                             </h2>
                             <span className="title-bg">ABOUT ME</span>
                         </div>
@@ -74,7 +74,7 @@ function About() {
                                             Age :{" "}
                                         </span>
                                         <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
-                                            27 Years
+                                            30 Years
                                         </span>
                                     </li>
                                     <li>
@@ -294,7 +294,7 @@ function About() {
                             size={180}
                             strokeWidth={20}
                             duration={2}
-                            percentage={40}
+                            percentage={55}
                             color="#ffb400"
                         />
                         <h5 className="fw-bold mt-3 mb-5 text-white">
@@ -306,7 +306,7 @@ function About() {
                             size={180}
                             strokeWidth={20}
                             duration={2}
-                            percentage={50}
+                            percentage={45}
                             color="#ffb400"
                         />
                         <h5 className="fw-bold mt-3 mb-5 text-white">

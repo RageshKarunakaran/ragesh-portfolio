@@ -13,7 +13,7 @@ const Layout = () => {
             </Link>
           </li>
           <li className="nav-item-list">
-            <Link className="nav-link" to="https://ragesh-portfolio.onrender.com/about">
+            <Link className="nav-link" to="/about">
               <div className="menu">
                 <img src="./user.svg" />
                 <h2 className="fw-bold">About</h2>

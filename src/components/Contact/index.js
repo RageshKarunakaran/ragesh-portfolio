@@ -78,8 +78,8 @@ function Contact() {
                                   Address
                                 </p>
                                 <p className="fw-bold">
-                                  123 Stree New York City , <br />
-                                  United States Of America 750065.
+                                  Chennai City , <br />
+                                  Tamilnadu, India.
                                 </p>
                               </div>
                             </div>
@@ -135,7 +135,7 @@ function Contact() {
                               </Col>
                               <Col xxl={12} xl={12} lg={12} md={12} sm={12}>
                               <div className="formgroup mb-4">
-                                <textarea placeholder="YOUR MESSAGE" rows={3} />
+                                <textarea placeholder="YOUR MESSAGE" rows={3} required/>
                               </div>
                               </Col>
                               <Col lg={12}>
