@@ -328,7 +328,7 @@ border-width: 0px !important; ;
     transform: translateY(calc(-100% + 200px));
     transition: transform 5s ease-in-out;
   }
-  .contactform input[type=email], .contactform input[type=text]{
+  .contactform input[type=email], .contactform input[type=mobile], .contactform input[type=text]{
     background: #252525;
     border: 1px solid #111;
     border-radius: 30px;
