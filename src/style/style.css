@@ -84,8 +84,8 @@ a{
     background: var(--bg-yellow);
 }
 .bg {
-    background: url('../../public/new.jpg');
-    background-position: top!important;
+    background: url('../../public/ragesh.jpeg');
+    background-position: center!important;
     background-repeat: no-repeat!important;
     background-size: cover!important;
     border-radius: 30px;

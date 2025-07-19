@@ -35,6 +35,22 @@ function Portfolio() {
                                 <div className="portfolio_inline">
                                   <Container>
                                     <Row>
+                                    <Col xxl={4} xl={4} lg={4} md={6}>
+                                      <a href="https://cashkaro.com/">
+                                        <div className="portfolio_box mb-4">
+                                          <div class="cards">
+                                            <div class="card">
+                                              <div class="card__image">
+                                                <img src="./cashkaro.png" alt="" />
+                                              </div>
+                                              <h2 class="card__title">
+                                              Affiliate Marketing
+                                              </h2>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </a>
+                                      </Col>
                                       <Col xxl={4} xl={4} lg={4} md={6}>
                                       <a href="https://pro.jump.trade/">
                                         <div className="portfolio_box mb-4">

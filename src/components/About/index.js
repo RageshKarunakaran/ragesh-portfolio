@@ -7,8 +7,8 @@ import {
 } from "react-bootstrap";
 import CountUp from "react-countup";
 import download from "../../lotties/download";
-import Lottie from "react-lottie";
 import CircularProgress from '../../CircularProgress';
+import Lottie from 'lottie-react';
 const downloadImage = {
     loop: true,
     autoplay: true,
@@ -44,7 +44,7 @@ function About() {
                             <Col xl={12}>
                                 <div className="d-md-inline-block d-flex justify-content-center">
                                     <img
-                                        src="./new.jpg"
+                                        src="./ragesh.jpeg"
                                         width={200}
                                         height={200}
                                         className="rounded-circle profile-img d-sm-block d-lg-none"
@@ -69,7 +69,7 @@ function About() {
                                             Karunakaran
                                         </span>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <span className="titile">
                                             Age :{" "}
                                         </span>
@@ -84,7 +84,7 @@ function About() {
                                         <span className="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">
                                             Indian
                                         </span>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <span className="titile">
                                             Freelance :{" "}
@@ -162,7 +162,7 @@ function About() {
                         <Row>
                             <Col xl={6} lg={6} md={6} sm={6} xs={6}>
                                 <div className="counter_box text-left px-md-5 py-md-4 px-2 py-2 mb-4">
-                                    <CountUp delay={1} end={5} />
+                                    <CountUp delay={1} end={6} />
                                     <span className="text-theme">+</span>
                                     <h5 className="text-white text-uppercase position-relative ps-5">
                                         Years of
@@ -174,7 +174,7 @@ function About() {
                             </Col>
                             <Col xl={6} lg={6} md={6} sm={6} xs={6}>
                                 <div className="counter_box text-left px-md-5 py-md-4 px-2 py-2 mb-4">
-                                    <CountUp delay={1} end={67} />
+                                    <CountUp delay={1} end={72} />
                                     <span className="text-theme">+</span>
                                     <h5 className="text-white text-uppercase position-relative ps-5">
                                         Completed
@@ -191,7 +191,7 @@ function About() {
                                     <h5 className="text-white text-uppercase position-relative ps-5">
                                         Happy
                                         <span className="d-block">
-                                            Customers
+                                            Clients
                                         </span>
                                     </h5>
                                 </div>
@@ -213,7 +213,7 @@ function About() {
                     </Col>
                 </Row>
                 {/* Myskills */}
-                <Row className="mt-5 chart">
+                <Row className="mt-5 chart justify-content-center">
                     <Col xl={12}>
                         <h3 className="text-uppercase mt-5 mb-5 text-light text-center fw-bolder">
                             MY Skills
@@ -223,7 +223,7 @@ function About() {
                         <CircularProgress size={180}
                             strokeWidth={20}
                             duration={2}
-                            percentage={85}
+                            percentage={90}
                             color="#ffb400" />
                         <h5 className="fw-bold mt-3 mb-5 text-white">
                             HTML
@@ -234,11 +234,23 @@ function About() {
                             size={180}
                             strokeWidth={20}
                             duration={2}
-                            percentage={80}
+                            percentage={90}
                             color="#ffb400"
                         />
                         <h5 className="fw-bold mt-3 mb-5 text-white">
                             CSS
+                        </h5>
+                    </Col>
+                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
+                        <CircularProgress
+                            size={180}
+                            strokeWidth={20}
+                            duration={2}
+                            percentage={95}
+                            color="#ffb400"
+                        />
+                        <h5 className="fw-bold mt-3 mb-5 text-white">
+                            TAILWIND CSS
                         </h5>
                     </Col>
                     <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
@@ -258,7 +270,7 @@ function About() {
                             size={180}
                             strokeWidth={20}
                             duration={2}
-                            percentage={55}
+                            percentage={82}
                             color="#ffb400"
                         />
                         <h5 className="fw-bold mt-3 mb-5 text-white">
@@ -270,47 +282,59 @@ function About() {
                             size={180}
                             strokeWidth={20}
                             duration={2}
+                            percentage={73}
+                            color="#ffb400"
+                        />
+                        <h5 className="fw-bold mt-3 mb-5 text-white">
+                            FIGMA
+                        </h5>
+                    </Col>
+                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
+                        <CircularProgress
+                            size={180}
+                            strokeWidth={20}
+                            duration={2}
+                            percentage={80}
+                            color="#ffb400"
+                        />
+                        <h5 className="fw-bold mt-3 mb-5 text-white">
+                            NEXT JS
+                        </h5>
+                    </Col>
+                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
+                        <CircularProgress
+                            size={180}
+                            strokeWidth={20}
+                            duration={2}
+                            percentage={82}
+                            color="#ffb400"
+                        />
+                        <h5 className="fw-bold mt-3 mb-5 text-white">
+                            REACT JS
+                        </h5>
+                    </Col>
+                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
+                        <CircularProgress
+                            size={180}
+                            strokeWidth={20}
+                            duration={2}
                             percentage={55}
-                            color="#ffb400"
-                        />
-                        <h5 className="fw-bold mt-3 mb-5 text-white">
-                            ADOBE XD
-                        </h5>
-                    </Col>
-                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
-                        <CircularProgress
-                            size={180}
-                            strokeWidth={20}
-                            duration={2}
-                            percentage={50}
-                            color="#ffb400"
-                        />
-                        <h5 className="fw-bold mt-3 mb-5 text-white">
-                            ADOBE PHOTOSHOP
-                        </h5>
-                    </Col>
-                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
-                        <CircularProgress
-                            size={180}
-                            strokeWidth={20}
-                            duration={2}
-                            percentage={55}
-                            color="#ffb400"
-                        />
-                        <h5 className="fw-bold mt-3 mb-5 text-white">
-                            REACT
-                        </h5>
-                    </Col>
-                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
-                        <CircularProgress
-                            size={180}
-                            strokeWidth={20}
-                            duration={2}
-                            percentage={45}
                             color="#ffb400"
                         />
                         <h5 className="fw-bold mt-3 mb-5 text-white">
                             REACTNATIVE
+                        </h5>
+                    </Col>
+                    <Col xl={3} lg={3} md={6} sm={6} xs={6} className='text-center'>
+                        <CircularProgress
+                            size={180}
+                            strokeWidth={20}
+                            duration={2}
+                            percentage={60}
+                            color="#ffb400"
+                        />
+                        <h5 className="fw-bold mt-3 mb-5 text-white">
+                            REDUX
                         </h5>
                     </Col>
                 </Row>
@@ -324,6 +348,31 @@ function About() {
                     <Col xl={6} lg={6}>
                         <div className="resume_box">
                             <ul className="list-unstyled m-0 p-0">
+                            <li>
+                                    <div className="resume_icon">
+                                        <img
+                                            src="./briefcase.png"
+                                            width={25}
+                                        />
+                                    </div>
+
+                                    <div className="text-left">
+                                        <span className="text-white text-left">
+                                            2023-PRESENT
+                                        </span>
+                                        <h4 className="text-white text-uppercase mt-3">
+                                            SOFTWARE ASSOCIATE 
+                                            <span className="text-white opacity-75 f-20">
+                                                 - CASHKARO.COM
+                                            </span>
+                                        </h4>
+                                        <p className="text-white">
+                                            Lorem ipsum dolor sit amet,
+                                            consectetur tempor incididunt ut
+                                            labore adipisicing elit
+                                        </p>
+                                    </div>
+                                </li>
                                 <li>
                                     <div className="resume_icon">
                                         <img
@@ -334,7 +383,7 @@ function About() {
 
                                     <div className="text-left">
                                         <span className="text-white text-left">
-                                            2020-PRESENT
+                                            2020-2023
                                         </span>
                                         <h4 className="text-white text-uppercase mt-3">
                                             UI / UX Developer

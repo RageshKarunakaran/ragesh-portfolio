@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Lottie from "react-lottie";
 import loction from "../../lotties/loction";
 import mail from "../../lotties/mail";
 import phone from "../../lotties/phone";
 import send from "../../lotties/send-message";
 import emailjs from 'emailjs-com'; // Make sure to install emailjs-com
 import { useState } from "react";
+import Lottie from "lottie-react";
 const loctionImage = {
   loop: true,
   autoplay: true,

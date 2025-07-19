@@ -1,6 +1,6 @@
 import React from 'react'
 import commingsoon from "../../lotties/commingsoon";
-import Lottie from 'react-lottie';
+import Lottie from 'lottie-react';
 const commingSoon = {
     loop: true,
     autoplay: true,

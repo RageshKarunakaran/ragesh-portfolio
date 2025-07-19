@@ -13,7 +13,7 @@ function Home() {
           <Col lg={{ span: 7, offset: 5 }} text-center text-lg-start>
             <div className="d-md-inline-block d-flex justify-content-center">
               <img
-                src="./new.jpg"
+                src="./ragesh.jpeg"
                 width={200}
                 height={200}
                 className="rounded-circle profile-img d-sm-block d-lg-none"

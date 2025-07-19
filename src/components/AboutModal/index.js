@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import CountUp, { useCountUp } from "react-countup";
 import CircularProgress from "../../CircularProgress";
 import styles from "../AboutModal/style.css";
-import Lottie from "react-lottie";
 import download from "../../lotties/download.json";
 import About from "../About";
 export function MyVerticallyCenteredModal(props) {
